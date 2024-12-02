@@ -1,10 +1,10 @@
 <script lang="ts">
-	import '../app.css';
-  import Pagina from '../components/template/Pagina.svelte';
-	let { children } = $props();
+  import "../app.css";
+  import Pagina from "../components/template/Pagina.svelte";
+  let { children } = $props();
 </script>
 
 <Pagina>
-	{@render children()}
+  <!-- CARREGA A INDEX (+page.svelte) DA PASTA -->
+  {@render children()}
 </Pagina>
-
